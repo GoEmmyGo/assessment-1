@@ -18,7 +18,7 @@ reader.question("Welcome! What is your password?", function(input){
             console.log('num1', num1);
             console.log('num2', num2);
 
-            if (mathSymbol === "+"){
+            if (password === pa){
                 console.log(num1 + num2);
             }
     
