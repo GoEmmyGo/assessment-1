@@ -8,22 +8,20 @@ const reader = readline.createInterface({
 
 
 reader.question("Welcome! What is your password?", function(input){
-    tokens = input.split(' ');
 	
-	password = tokens[0];
-	num1 = Number(tokens[1]);
-	num2 = Number(tokens[2]);
+	let password = [0,1,2,3,4,5,6,7,8,9]
 
-    console.log('mathSymbol', mathSymbol);
-            console.log('num1', num1);
-            console.log('num2', num2);
 
-            if (password === pa){
-                console.log(num1 + num2);
+
+
+            if (password === password.length){
+                console.log(`success`);
+            }else if (password !== password.length){
+                console.log(`failure`)
             }
     
-    console.log()
+    
 
     reader.close()
 
-});
+})
