@@ -29,4 +29,7 @@ if(faveNum == 13){
 */
 
 //CODE HERE
-for(i = faveNum, i )
+for(i = faveNum; i = 9; 5){
+  console.log(faveNum)
+  i +=1
+}
